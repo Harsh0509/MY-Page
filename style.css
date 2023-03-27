@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.container1{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.pexels.com/photos/989941/pexels-photo-989941.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.content1{
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 10px yellow;
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+img{
+    width: 55px;
+    height: 55px;
+    margin-right: -5px;
+    margin-bottom: 5px;
+}
+
+h1{
+    width: 100%;
+    height: 100%;
+    font-family:Brush Script MT;
+    color:violet;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+
+#text{
+    border-radius: 20px;
+    border-color:crimson;
+    box-shadow: 0 0 5px yellowgreen;
+    margin-top: 5px;
+    margin-bottom: 1px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+#password{
+    border-radius: 20px;
+    border-color: crimson;
+    box-shadow: 0 0 5px yellowgreen;
+
+}
+button{
+    margin: 5px;
+    padding: 3px 10px;
+    border-radius: 100px;
+    border-color: aqua;
+    box-shadow: 0 0 20px purple;
+}
+
+p{
+    color: red;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+p2{
+    color: blue;
+}
+/* 
+.content2{
+    
+} */
+
+#icon{
+    width: 5%;
+    height: 5%;
+    margin-right: -10px;
+    /* margin-bottom: */
+    margin-left: px;
+    background-color: blue;
+}
+.overlay1{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
